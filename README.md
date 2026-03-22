@@ -4,24 +4,31 @@ This project is a beginner-friendly deployment of a static website using Amazon 
 ## Live Website
 
 ![Website](images/website.png)
+
 #  Architecture
 
-Amazon S3: Stores the website’s static HTML files.
 ## S3 Bucket
 
+Amazon S3: Stores the website’s static HTML files.
+
 ![S3](images/s3.png)
-Amazon CloudFront: Distributes the content globally.
+
 ## CloudFront Distribution
 
+Amazon CloudFront: Distributes the content globally.
+
 ![CloudFront](images/cloudfront.png)
+
 # Steps I Took
 
 1. Created basic HTML files (index and error pages).
 
 2. Set up an S3 bucket with static website hosting enabled.
+
 ## Static Website Hosting
 
 ![Hosting](images/hosting.png)
+
 3. Configured bucket policy for public read access to website files.
 
 4. Created a CloudFront distribution pointing to the S3 website endpoint.
